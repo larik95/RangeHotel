@@ -1,0 +1,261 @@
+@charset "utf-8"
+
+html {
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, p {
+    font-family: "oxygen", arial;
+}
+.icon-play {
+    height: 30px;
+    display: none;
+    }
+.icon-play img {
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    
+}
+.main-header {
+    text-align: center;
+}
+.main-header img {
+    margin: 8px;
+}
+.main-nav {
+    background-color: #612674;
+    text-align: center;
+    padding: 0px;
+}
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 16px;
+    font-family: "oxygen", arial;
+}
+.main-nav a:hover {
+    background-color: #7c3792;
+}
+
+.button {
+    text-decoration: none;
+    display:inline-block;
+    background-color: #58c4c4;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+    font-family: "oxygen", arial;
+}
+.button:hover {
+    background-color: #37a0a0;
+}
+.top-content {
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 8px;
+}
+
+.top-content h1{
+    color: #612674;
+    font-size: 22px;
+    margin: 22px;
+}
+
+.top-content h2 {
+    color: #a87bb7;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.midle-content {
+    background-color:#f6f6f6;
+    text-align: center;
+    padding: 16px;
+    padding-top: 50px;
+}
+.midle-content h3 {
+    color: #612674;
+    letter-spacing: 4px;
+    text-transform:uppercase;
+    font-size: 18px;
+}.midle-content p{
+    font-size: 14px;
+}
+.midle-content span[class^=icon] {
+    font-size: 30px;
+    color: #612674;
+}
+
+.low-content {
+    padding: 16px;
+    }
+.low-content div {
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.low-content h3 {
+    color: #612674;
+    letter-spacing: 4px;
+    text-transform:uppercase;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+footer {
+    background-color: #25303e;
+    color: #83969f;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+footer a {
+    text-decoration: none;
+    }
+
+footer li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.footer-icons {
+    background-color: #303d4c;
+}
+
+
+
+@media screen and (min-width: 700px) {
+
+
+    .main-header img {
+        float: left;
+    }
+
+    .icon-play {
+        display: block;
+        text-align: center;
+        height: 70px;
+        margin-bottom: 4px;
+        margin-top: 30px;
+        }
+   
+    .top-content {
+        background-color: #521a66;
+        margin-top: -30px;
+        height: 300px;
+        }
+        .top-content h1 {
+            color: white;
+        }
+        .top-content h2 {
+            color: white;
+        }
+        .main-nav {
+            background-color: transparent;
+            text-align: right;
+            margin-bottom: 0px;
+            margin-top: 0px;
+            padding: 15px;
+        }
+       
+        .main-nav li {
+            display: inline-block;
+                        
+        }
+        .main-nav a {
+            color: #713a84;
+            text-decoration: none;
+            font-family: "oxygen", arial;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px;
+        }
+        .main-nav a:hover {
+            background-color: transparent;
+            color: #c8a1d4;
+            transition: linear.2s;
+        }
+
+    .div1-4 {
+        display: inline-block;
+        width: 42%;
+        margin: 5px;
+        margin-top: 0px;
+        padding: 0px 20px 20px 20px;
+        line-height: 1.5;
+        }
+    .low-content .button {
+        float: right;
+    }
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: block;
+      }
+      
+}
+
+@media screen and (min-width: 1000px) {
+
+    .top-content {
+        background-image: url(../images/bg_topo_1198x670.jpg);
+        background-color: #521a66;
+        height: 250px;
+        padding: 180px;
+        
+    } 
+
+    .icon-play {
+        display: block;
+        text-align: center;
+        height: 90px;
+        margin-bottom: 60px;
+        margin-top: 70px;
+        }
+    
+}
+
+@media screen and (min-width: 74em) {
+
+    .top-content {
+        background-image: url(../images/bg_topo_1600x1374.jpg);
+        background-color: #521a66;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        padding: 160px 180px 240px;
+    }
+
+    .div1-4 {
+        width: 19%;
+        margin: 0;
+    }
+    .div5-9 {
+        width: 40%;
+        display: inline-block;
+        margin-left: 5%;
+        margin-right: 2.5%;
+    }
+
+    .low-content .button {
+        float: left;
+    }
+    .icon-play {
+        display: block;
+        text-align: center;
+        height: 90px;
+        margin-bottom: 60px;
+        margin-top: 160px;
+        }
+}
